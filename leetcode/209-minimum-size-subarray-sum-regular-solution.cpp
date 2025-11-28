@@ -10,7 +10,7 @@ public:
             nums[i]+= nums[i-1];
         }
 
-        //Insert 0 at the begining of nums. 
+        //Insert 0 at the begining of nums.  
         nums.insert( nums.begin(), 0);
 
         n++;
